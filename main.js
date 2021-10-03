@@ -81,7 +81,7 @@ function up()
 
 function down()
 {
-	if(greencar_y >= 0)
+	if(greencar_y <= 350)
 	{
          greencar_y = greencar_y + 10;
 
@@ -103,7 +103,7 @@ function left()
 
 function right()
 {
-	if(greencar_x >= 0)
+	if(greencar_x <= 750)
 	{
          greencar_x = greencar_x + 10;
 
